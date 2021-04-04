@@ -24,7 +24,7 @@ sh install.sh
 ```
 
 Download lmdb file of [BS-RSCD](https://drive.google.com/file/d/1j4gxN28KmDA7Yl1W37i87n3nFIgmZh2_/view?usp=sharing)
-(or [Fastec-RS](https://drive.google.com/file/d/1ZHFi6SrftR-t57vvqneG4jlU3_v4Jh84/view?usp=sharing) for RSC task).
+(or [Fastec-RS](https://drive.google.com/file/d/1JGzY_8tVVP-oy7jFL1TL84gt3yz1bry3/view?usp=sharing) for RSC task).
 
 (PS, for how to create lmdb file, you can refer to ./data/create_rscd_lmdb.ipynb)
 ## Training
@@ -57,7 +57,7 @@ python main.py --test_only --test_checkpoint ./checkpoints/JCD_BS-RSCD.tar --vid
 
 ## Citing
 
-If JCD and BS-RSCD are useful for your research, please consider citing:
+If BS-RSCD and JCD are useful for your research, please consider citing:
 
 ```bibtex
 @InProceedings{Zhong_2021_Towards,
