@@ -1,0 +1,10 @@
+tensorboardX==1.6
+meshzoo==0.4.3
+path==13.1.0
+torch
+torchvision
+scikit-image
+lmdb
+tqdm
+opencv-python
+lpips
