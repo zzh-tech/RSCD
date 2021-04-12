@@ -9,9 +9,9 @@ We contributed the first real-world dataset ([BS-RSCD](https://drive.google.com/
 We collected the data samples using the proposed beam-splitter acquisition system as below:  
 ![image](https://github.com/zzh-tech/Images/blob/master/RSCD/acquisition_system.png)
 
-In the near future, we will add more data samples with larger distortion to the dataset...
+In the near future, we will add more data samples with larger distortion to the dataset ...
 
-If you are interested in real-world datasets for pure deblurring tasks, please refer to [ESTRNN&BSD](https://github.com/zzh-tech/ESTRNN).
+If you are interested in real-world datasets for pure deblurring tasks, please refer to [ESTRNN & BSD](https://github.com/zzh-tech/ESTRNN).
 ## Prerequisites
 
 Install the dependent packages:
