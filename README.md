@@ -48,10 +48,15 @@ python main.py --data_root <path> --model JCD --dataset fastec_rs_lmdb --video
 Please download [checkpoints](https://drive.google.com/file/d/1bGFHNjoqTGk78UTF-7qDm6hVU4Oqe7N3/view?usp=sharing) and
 unzip it under the main directory.
 
-Run a pre-trained model:
+Run the pre-trained model on BS-RSCD:
 
 ```bash
-python main.py --test_only --test_checkpoint ./checkpoints/JCD_BS-RSCD.tar --video
+python main.py --test_only --dataset rscd_lmdb --test_checkpoint ./checkpoints/JCD_BS-RSCD.tar --video
+```
+
+Inference for video file:
+```bash
+python video_inference.py --src <input_path> --dst <output_path> --checkpoint ./checkpoints/JCD_BS-RSCD.tar
 ```
 
 ## Citing
