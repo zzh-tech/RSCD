@@ -18,7 +18,7 @@ args = parser.parse_args()
 
 
 def inp_pre(img, h, w):
-    img = cv2.resize(img, (w, h), interpolation=cv2.INTER_AREA)
+    # img = cv2.resize(img, (w, h), interpolation=cv2.INTER_AREA)
     img = prepare(img, normalize=True)
     img = np.concatenate((img, distortion_map(h, w, (h - 1) / 2.).numpy()[..., np.newaxis]), axis=2)
     img = img.transpose((2, 0, 1))[np.newaxis, :]
@@ -34,8 +34,8 @@ vidcap = cv2.VideoCapture(args.src)
 frames = int(vidcap.get(cv2.CAP_PROP_FRAME_COUNT))
 width = int(vidcap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(vidcap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-width = 640
-height = 480
+# width = 640
+# height = 480
 fps = int(vidcap.get(cv2.CAP_PROP_FPS)) // 3
 fourcc = cv2.VideoWriter_fourcc(*"MJPG")
 size = (width, height)
