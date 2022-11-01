@@ -1,13 +1,14 @@
 # RSCD (BS-RSCD & JCD)
 
-[Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes (CVPR2021)](https://arxiv.org/abs/2104.01601)
+[**CVPR2021**] [Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes](https://arxiv.org/abs/2104.01601)
 
-by Zhihang Zhong, Yinqiang Zheng, Imari Sato
+by [Zhihang Zhong](https://zzh-tech.github.io/), Yinqiang Zheng, Imari Sato
 
 We contributed the first real-world dataset ([BS-RSCD](https://drive.google.com/file/d/1hgzibaez7EipmPSN-3GzQO0_mlyruKGa/view?usp=sharing)) and end-to-end model (JCD) for joint rolling shutter correction and deblurring tasks.
 
-We collected the data samples using the proposed beam-splitter acquisition system as below:  
-![image](https://github.com/zzh-tech/Images/blob/master/RSCD/acquisition_system.png)
+We collected the data samples using the proposed beam-splitter acquisition system as below:
+
+![image](https://drive.google.com/uc?export=view&id=1JkAsNkiaWZ5eZ8KSQdMENrxTBPEfrFen)
 
 In the near future, we will add more data samples with larger distortion to the dataset ...
 
