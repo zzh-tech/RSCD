@@ -1,6 +1,6 @@
 # RSCD (BS-RSCD & JCD)
 
-[**CVPR2021**] [Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes](https://arxiv.org/abs/2104.01601)
+**[CVPR2021]** [Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes](https://arxiv.org/abs/2104.01601) ([CVF Link](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhong_Towards_Rolling_Shutter_Correction_and_Deblurring_in_Dynamic_Scenes_CVPR_2021_paper.pdf))
 
 by [Zhihang Zhong](https://zzh-tech.github.io/), Yinqiang Zheng, Imari Sato
 
