@@ -4,11 +4,11 @@
 
 by [Zhihang Zhong](https://zzh-tech.github.io/), Yinqiang Zheng, Imari Sato
 
-We contributed the first real-world dataset ([BS-RSCD](https://drive.google.com/file/d/1hgzibaez7EipmPSN-3GzQO0_mlyruKGa/view?usp=sharing)) and end-to-end model (JCD) for joint rolling shutter correction and deblurring tasks.
+We contributed the first real-world dataset ([BS-RSCD](https://drive.google.com/file/d/1DZe1wUgBs_ORS2O4_zxjqNnYoaKwwNSQ/view?usp=sharing)) and end-to-end model (JCD) for joint rolling shutter correction and deblurring tasks.
 
 We collected the data samples using the proposed beam-splitter acquisition system as below:
 
-![image](https://drive.google.com/uc?export=view&id=1JkAsNkiaWZ5eZ8KSQdMENrxTBPEfrFen)
+![image](https://drive.google.com/uc?export=view&id=1sIaHIz-LlqqM0RMzl78Ub_1WD4ozPGUw)
 
 In the near future, we will add more data samples with larger distortion to the dataset ...
 
@@ -23,8 +23,8 @@ conda activate rscd
 sh install.sh
 ```
 
-Download lmdb files of [BS-RSCD](https://drive.google.com/file/d/1j4gxN28KmDA7Yl1W37i87n3nFIgmZh2_/view?usp=sharing)
-(or [Fastec-RS](https://drive.google.com/file/d/1JGzY_8tVVP-oy7jFL1TL84gt3yz1bry3/view?usp=sharing) for RSC tasks).
+Download lmdb files of [BS-RSCD](https://drive.google.com/file/d/1NmAbkpL2IWRdgZ23aIMYWiivGt24Rer8/view?usp=sharing)
+(or [Fastec-RS](https://drive.google.com/file/d/1vs9sxav9h9Yjjs11KCxKtFuzH2gaRZAx/view?usp=sharing) for RSC tasks).
 
 (PS, for how to create lmdb file, you can refer to ./data/create_rscd_lmdb.ipynb)
 ## Training
@@ -46,7 +46,7 @@ python main.py --data_root <path> --model JCD --dataset fastec_rs_lmdb --video
 
 ## Testing
 
-Please download [checkpoints](https://drive.google.com/file/d/1bGFHNjoqTGk78UTF-7qDm6hVU4Oqe7N3/view?usp=sharing) and
+Please download [checkpoints](https://drive.google.com/file/d/1_B6Q9K9V1WycKkEQscS5Hhd6WxR3GRT9/view?usp=sharing) and
 unzip it under the main directory.
 
 Run the pre-trained model on BS-RSCD:
