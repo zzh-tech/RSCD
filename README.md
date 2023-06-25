@@ -65,11 +65,11 @@ python video_inference.py --src <input_path> --dst <output_path> --checkpoint ./
 If BS-RSCD and JCD are useful for your research, please consider citing:
 
 ```bibtex
-@InProceedings{Zhong_2021_Towards,
-  title={Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes},
+@inproceedings{zhong2021towards,
+  title={Towards rolling shutter correction and deblurring in dynamic scenes},
   author={Zhong, Zhihang and Zheng, Yinqiang and Sato, Imari},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  month = {June},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9219--9228},
   year={2021}
 }
 ```
